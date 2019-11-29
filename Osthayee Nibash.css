@@ -1,0 +1,251 @@
+body{
+	background-color: #018B67;
+}
+
+.login {
+    width: 100%;
+    padding: 0 0px;
+    background: #36c;
+    height: 60px;
+    font-weight: 400;
+
+}
+.login ul{
+			margin: -20px;padding: =0;list-style: none;text-align: center;
+		}
+.login ul li{
+			float: left;padding:20px;list-style: none;text-align: center;height: 100%;padding-top: 1px;
+        }
+.login ul li a{
+			 background-color: #3366CC;
+			display: block;color: #000;padding: 20px;text-decoration: none;width: 100%;
+		}
+.login ul li a:hover{
+			background: yellow;
+		}
+
+.loginbtn:hover {background-color: #3e8e41;}
+.dropbtn {
+    background-color: #3366CC;
+    color: white;
+    padding: 20px 20px 20px 15px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: yellow;
+}
+
+
+.intro_pic{
+	width: 100%;height: 550px;background: #826145;display: block;overflow: hidden;margin-left: -1px;
+}
+.intro{
+	width: 500px;height: 550px;background: #826145;display: block;float: left;margin-top: 240px;overflow: hidden;
+}
+.picture{
+	width: 700px;height: 500;background: #826145;display: block;float: right;margin-left: 50px;overflow: hidden;
+}
+
+.w3-center{
+	margin-left: 180px;
+}
+
+
+
+.owner{
+	width: 97%;height: 110px;background: #826145;display: block;overflow: hidden;margin-top: 4px;margin-left: -2px;
+}
+
+.owner_name{
+	width: 400px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;margin-left: 12px;
+}
+.owner_contact{
+	width: 400px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;margin-left: 12px;
+}
+.owner_address{
+	width: 450px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.all_floor{
+	width: 100%;height: 700px;background: #826145;display: block;overflow: hidden;margin-top: -10px;margin-left: -1px;
+}
+
+.para{
+   width: 100%;height: 125px;background: #826145;display: block;overflow: hidden;
+}
+
+.forth_floor{
+	width: 100%;height: 100px;background: #826145;display: block;overflow: hidden;
+}
+
+.forth_floor_p{
+	width: 150px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;
+}
+.forth_floor_room{
+	width: 1000px;height: 100px;background: #826145;display: block;;overflow: hidden;float: right;
+}
+.forth_floor_room ul{
+			margin: -20px;padding: =0;list-style: none;text-align: center;
+		}
+.forth_floor_room ul li{
+			float: left;padding:10px;list-style: none;text-align: center;height: 100%;padding-top: 1px;
+        }
+.forth_floor_room ul li a{
+			 background-color: #826145;
+			display: block;color: #000;padding: 10px;text-decoration: none;width: 100%;margin-top: 12px;
+		}
+.forth_floor_room ul li a:hover{
+			background: green;
+		}
+
+
+.third_floor{
+	width: 100%;height: 100px;background: #826145;display: block;overflow: hidden;
+}
+
+.third_floor_p{
+	width: 150px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;
+}
+.third_floor_room{
+	width: 1000px;height: 100px;background: #826145;display: block;;overflow: hidden;float: right;
+}
+.third_floor_room ul{
+			margin: -20px;padding: =0;list-style: none;text-align: center;
+		}
+.third_floor_room ul li{
+			float: left;padding:10px;list-style: none;text-align: center;height: 100%;padding-top: 1px;
+        }
+.third_floor_room ul li a{
+			 background-color: #826145;
+			display: block;color: #000;padding: 10px;text-decoration: none;width: 100%;margin-top: 12px;
+		}
+.third_floor_room ul li a:hover{
+			background: green;
+		}
+
+.second_floor{
+	width: 100%;height: 100px;background: #826145;display: block;overflow: hidden;
+}
+
+.second_floor_p{
+	width: 150px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;
+}
+.second_floor_room{
+	width: 1000px;height: 100px;background: #826145;display: block;;overflow: hidden;float: right;
+}
+.second_floor_room ul{
+			margin: -20px;padding: =0;list-style: none;text-align: center;
+		}
+.second_floor_room ul li{
+			float: left;padding:10px;list-style: none;text-align: center;height: 100%;padding-top: 1px;
+        }
+.second_floor_room ul li a{
+			 background-color: #826145;
+			display: block;color: #000;padding: 10px;text-decoration: none;width: 100%;margin-top: 12px;
+		}
+.second_floor_room ul li a:hover{
+			background: red;
+		}
+
+.first_floor{
+	width: 100%;height: 100px;background: #826145;display: block;overflow: hidden;
+}
+
+.first_floor_p{
+	width: 150px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;
+}
+.first_floor_room{
+	width: 1000px;height: 100px;background: #826145;display: block;;overflow: hidden;float: right;
+}
+.first_floor_room ul{
+			margin: -20px;padding: =0;list-style: none;text-align: center;
+		}
+.first_floor_room ul li{
+			float: left;padding:10px;list-style: none;text-align: center;height: 100%;padding-top: 1px;
+        }
+.first_floor_room ul li a{
+			 background-color: #826145;
+			display: block;color: #000;padding: 10px;text-decoration: none;width: 100%;margin-top: 12px;
+		}
+.first_floor_room ul li a:hover{
+			background: red;
+		}
+
+.ground_floor{
+	width: 100%;height: 100px;background: #826145;display: block;overflow: hidden;
+}
+
+.ground_floor_p{
+	width: 150px;height: 100px;background: #826145;display: block;overflow: hidden;float: left;
+}
+.ground_floor_room{
+	width: 1000px;height: 100px;background: #826145;display: block;;overflow: hidden;float: right;
+}
+.ground_floor_room ul{
+			margin: -20px;padding: =0;list-style: none;text-align: center;
+		}
+.ground_floor_room ul li{
+			float: left;padding:10px;list-style: none;text-align: center;height: 100%;padding-top: 1px;
+        }
+.ground_floor_room ul li a{
+			 background-color: #826145;
+			display: block;color: #000;padding: 10px;text-decoration: none;width: 100%;margin-top: 12px;
+		}
+.ground_floor_room ul li a:hover{
+			background: green;
+		}
+
+
+
+
+
+
+.prices_and_facilities{
+	width: 100%;height: 200px;background: #826145;display: block;overflow: hidden;margin-left: -2px;margin-top: 175px;
+}
+.prices{
+	width: 500px;height: 200px;background: #826145;display: block;overflow: hidden;float: left;
+}
+.facilities{
+	width:700px;height: 200px;background: #826145;display: block;overflow: hidden;float: right; 
+}
